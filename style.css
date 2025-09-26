@@ -1,0 +1,996 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Druk Cyr;
+}
+
+body {
+  font-family: Druk Cyr;
+}
+.main {
+  position: absolute;
+  display: flex;
+  width: 1460px;
+  height: 700px;
+  top: 38px;
+  left: 38px;
+  border-radius: 20px;
+  opacity: 1;
+  background-color: #313131;
+  align-items: center;
+}
+.name {
+  position: absolute;
+  width: 102.71775817871094;
+  height: 24.448001861572266;
+  top: 67.28px;
+  left: 59.97px;
+  opacity: 1;
+  color: #f7f7f7;
+}
+
+.name2 {
+  font-size: 128px;
+  width: 412px;
+  height: 95px;
+  top: 140.41px;
+  left: 79.06px;
+  opacity: 1;
+}
+
+.right-side {
+  position: absolute;
+  top: 58.5px;
+  left: 1300px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.right-side button {
+  width: 86px;
+  height: 42px;
+  border-radius: 50px;
+  opacity: 1;
+  padding-top: 11px;
+  padding-right: 20px;
+  padding-bottom: 16px;
+  padding-left: 25px;
+  background-color: #1c1c1c;
+  color: #f7f7f7;
+  display: flex;
+  margin-right: -10px;
+}
+
+.right-side img {
+  width: 30px;
+  height: 30px;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.about {
+  width: 930px;
+  height: 227px;
+  margin-bottom: 200px;
+  margin-left: 60px;
+  border-radius: 20px;
+  opacity: 1;
+  background-color: #f5a6ff;
+}
+
+.name2 {
+  font-size: 100px;
+  width: 412px;
+  height: 95px;
+  top: 140px;
+  left: 79px;
+  opacity: 1;
+}
+
+.text-about {
+  font-size: 18px;
+  position: absolute;
+  width: 295px;
+  height: 108px;
+  margin-top: 50px;
+  margin-left: 630px;
+  opacity: 1;
+  color: #313131;
+}
+
+.strong2 {
+  position: absolute;
+  width: 316px;
+  height: 320px;
+  top: 367.28px;
+  left: 58px;
+  justify-content: space-between;
+  opacity: 1;
+  padding: 20px;
+  background-image: url("img/strong-color.png");
+  border-radius: 20px;
+}
+
+.strong-arrow {
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  top: 367.05px;
+  left: 332px;
+  border-radius: 50px;
+  display: flex;
+}
+
+.about-place {
+  width: 275;
+  height: 72;
+  opacity: 1;
+  color: #313131;
+}
+
+.bass-img {
+  position: absolute;
+  width: 316px;
+  height: 320px;
+  top: 367.28px;
+  left: 394px;
+  border-radius: 20px;
+  opacity: 1;
+}
+
+.women {
+  border-radius: 20px;
+  position: absolute;
+  width: 267px;
+  height: 320px;
+  top: 367.5px;
+  left: 730px;
+  justify-content: space-between;
+  opacity: 1;
+  padding: 20px;
+  background-color: #c8e1f4;
+}
+
+.name-women {
+  opacity: 1;
+  font-family: Druk Cyr;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 30px;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+}
+
+.about-women {
+  display: flex;
+  padding-top: 165px;
+  opacity: 100%;
+  font-family: Inter;
+  font-weight: 400px;
+  font-style: Regular;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0px;
+}
+
+.women-img {
+  position: absolute;
+  width: 428px;
+  height: 427px;
+  top: 133px;
+  left: 1010px;
+  border-radius: 20px;
+  opacity: 1;
+}
+
+.training-img {
+  position: absolute;
+  width: 427;
+  height: 120;
+  top: 550px;
+  left: 1000px;
+  opacity: 1;
+  padding: 20px;
+  gap: 20px;
+}
+
+.why-our {
+  width: 539.332275390625px;
+  height: 120px;
+  top: 847px;
+  left: 58px;
+  opacity: 1;
+  font-family: Druk Cyr;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  position: absolute;
+  display: flex;
+}
+
+.safety {
+  width: 316px;
+  height: 96px;
+  top: 847px;
+  left: 1150px;
+  opacity: 1;
+  position: absolute;
+  font-family: Inter;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 0px;
+}
+
+.first-card {
+  width: 428px;
+  height: 205px;
+  top: 1100px;
+  left: 58px;
+  opacity: 1;
+  gap: 10px;
+  position: absolute;
+  border: 10px solid black;
+  border-radius: 20px;
+}
+
+.first-number {
+  width: 59px;
+  height: 60px;
+  opacity: 1;
+  top: 1140px;
+  left: 538.04px;
+  font-family: Druk Cyr;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 80px;
+  line-height: 80px;
+  letter-spacing: 0%;
+  padding-top: 98px;
+  padding-left: 20px;
+}
+
+.first-text {
+  opacity: 1;
+  font-family: Inter;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0px;
+  padding-left: 250px;
+  top: 20px;
+  right: 20px;
+  position: absolute;
+}
+
+.second-card {
+  width: 427px;
+  height: 205px;
+  border: 10px solid black;
+  top: 1100px;
+  left: 528px;
+  position: absolute;
+  border-radius: 20px;
+  margin-left: 5px;
+}
+
+.second-number {
+  width: 59px;
+  height: 60px;
+  opacity: 1;
+  top: 1140px;
+  left: 538.04px;
+  font-family: Druk Cyr;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 80px;
+  line-height: 80px;
+  letter-spacing: 0%;
+  padding-top: 98px;
+  padding-left: 20px;
+}
+
+.second-text {
+  opacity: 1;
+  font-family: Inter;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0px;
+  padding-left: 250px;
+  top: 20px;
+  right: 20px;
+  position: absolute;
+}
+
+.third-card {
+  width: 427.7724609375px;
+  height: 205px;
+  opacity: 1;
+  top: 1100px;
+  left: 1000px;
+  border-radius: 20px;
+  border-width: 10px;
+  position: absolute;
+  border: 10px solid black;
+}
+
+.third-number {
+  width: 59px;
+  height: 60px;
+  opacity: 1;
+  top: 1140px;
+  left: 538.04px;
+  font-family: Druk Cyr;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 80px;
+  line-height: 80px;
+  letter-spacing: 0%;
+  padding-top: 98px;
+  padding-left: 20px;
+}
+.third-text {
+  opacity: 1;
+  font-family: Inter;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0px;
+  padding-left: 250px;
+  top: 20px;
+  right: 20px;
+  position: absolute;
+}
+
+.four-card {
+  width: 427.7724609375px;
+  height: 205px;
+  opacity: 1;
+  top: 1330px;
+  left: 58px;
+  border-radius: 20px;
+  border-width: 10px;
+  position: absolute;
+  border: 10px solid black;
+}
+
+.four-number {
+  width: 59px;
+  height: 60px;
+  opacity: 1;
+  top: 1140px;
+  left: 538.04px;
+  font-family: Druk Cyr;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 80px;
+  line-height: 80px;
+  letter-spacing: 0%;
+  padding-top: 98px;
+  padding-left: 20px;
+}
+
+.four-text {
+  opacity: 1;
+  font-family: Inter;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0px;
+  padding-left: 250px;
+  top: 20px;
+  right: 20px;
+  position: absolute;
+}
+
+.five-card {
+  width: 427.7724609375px;
+  height: 205px;
+  opacity: 1;
+  top: 1330px;
+  left: 528px;
+  border-radius: 20px;
+  border-width: 10px;
+  position: absolute;
+  border: 10px solid black;
+}
+
+.five-number {
+  width: 59px;
+  height: 60px;
+  opacity: 1;
+  top: 1140px;
+  left: 538.04px;
+  font-family: Druk Cyr;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 80px;
+  line-height: 80px;
+  letter-spacing: 0%;
+  padding-top: 98px;
+  padding-left: 20px;
+}
+
+.five-text {
+  width: 192px;
+  height: 108px;
+  opacity: 1;
+  top: 10px;
+  left: 200px;
+  font-family: Inter;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0px;
+  position: absolute;
+}
+
+.second-image {
+  width: 427.4404296875px;
+  height: 205px;
+  opacity: 1;
+  top: 1330px;
+  left: 1000px;
+  border-radius: 25px;
+  position: absolute;
+}
+
+.team-text {
+  width: 554px;
+  height: 108px;
+  top: 1596px;
+  left: 58px;
+  opacity: 1;
+  font-family: Druk Cyr;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  position: absolute;
+}
+
+.team {
+  width: 1364px;
+  height: 934px;
+  top: 1900px;
+  left: 40px;
+  opacity: 1;
+  border-radius: 20px;
+  background-color: #313131;
+  position: absolute;
+  margin-top: 30px;
+}
+
+.team-text1 {
+  width: 550px;
+  top: 1848px;
+  left: 172px;
+  opacity: 1;
+  font-family: Druk Cyr;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 40px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  color: #f0c36b;
+  padding-left: 172px;
+  padding-top: 50px;
+}
+
+.team-text2 {
+  opacity: 1;
+  font-family: Inter;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #f7f7f7;
+  padding-left: 1000px;
+  margin-top: -200px;
+  margin-right: 100px;
+}
+
+.trener-card1 {
+  width: 282px;
+  height: 434px;
+  top: 450px;
+  left: 45px;
+  opacity: 1;
+  border-radius: 20px;
+  background-color: #c8e1f4;
+  position: absolute;
+}
+
+.card-text {
+  width: 188px;
+  height: 12px;
+  top: 2125px;
+  left: 85px;
+  opacity: 1;
+  font-family: Inter;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 77px;
+  letter-spacing: 0px;
+  padding-left: 20px;
+}
+
+.trener-name {
+  width: 97px;
+  height: 45px;
+  top: 50px;
+  left: 20px;
+  opacity: 1;
+  font-family: Druk Cyr;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 60px;
+  line-height: 77px;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  position: absolute;
+}
+
+.trener-img {
+  width: 248px;
+  height: 345px;
+  top: 90px;
+  left: 35px;
+  opacity: 1;
+  border-radius: 20px;
+  position: absolute;
+}
+.trener-card2 {
+  width: 282px;
+  height: 434px;
+  top: 450px;
+  left: 380px;
+  opacity: 1;
+  border-radius: 20px;
+  background-color: #c8e1f4;
+  position: absolute;
+}
+
+.card-text2 {
+  width: 188px;
+  height: 12px;
+  top: 2125px;
+  left: 85px;
+  opacity: 1;
+  font-family: Inter;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 77px;
+  letter-spacing: 0px;
+  padding-left: 20px;
+}
+
+.trener-name2 {
+  width: 97px;
+  height: 45px;
+  top: 50px;
+  left: 20px;
+  opacity: 1;
+  font-family: Druk Cyr;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 60px;
+  line-height: 77px;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  position: absolute;
+}
+
+.trener-img2 {
+  width: 285px;
+  height: 340px;
+  top: 95px;
+  left: px;
+  opacity: 1;
+  border-radius: 20px;
+  position: absolute;
+}
+.trener-card3 {
+  width: 282px;
+  height: 434px;
+  top: 450px;
+  left: 710px;
+  opacity: 1;
+  border-radius: 20px;
+  background-color: #c8e1f4;
+  position: absolute;
+}
+
+.card-text3 {
+  width: 188px;
+  height: 12px;
+  top: 2125px;
+  left: 85px;
+  opacity: 1;
+  font-family: Inter;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 77px;
+  letter-spacing: 0px;
+  padding-left: 20px;
+}
+
+.trener-name3 {
+  width: 97px;
+  height: 45px;
+  top: 50px;
+  left: 20px;
+  opacity: 1;
+  font-family: Druk Cyr;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 60px;
+  line-height: 77px;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  position: absolute;
+}
+
+.trener-img3 {
+  width: 248px;
+  height: 345px;
+  top: 90px;
+  left: 35px;
+  opacity: 1;
+  border-radius: 20px;
+  position: absolute;
+}
+.trener-card4 {
+  width: 282px;
+  height: 434px;
+  top: 450px;
+  left: 1040px;
+  opacity: 1;
+  border-radius: 20px;
+  background-color: #c8e1f4;
+  position: absolute;
+}
+
+.card-text4 {
+  width: 188px;
+  height: 12px;
+  top: 2125px;
+  left: 85px;
+  opacity: 1;
+  font-family: Inter;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 77px;
+  letter-spacing: 0px;
+  padding-left: 20px;
+}
+
+.trener-name4 {
+  width: 97px;
+  height: 45px;
+  top: 50px;
+  left: 20px;
+  opacity: 1;
+  font-family: Druk Cyr;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 60px;
+  line-height: 77px;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  position: absolute;
+}
+
+.trener-img4 {
+  width: 248px;
+  height: 317px;
+  top: 120px;
+  left: 35px;
+  opacity: 1;
+  border-radius: 20px;
+  position: absolute;
+}
+
+.text-tren {
+  width: 650px;
+  height: 45px;
+  top: 3000px;
+  left: 58px;
+  opacity: 1;
+  font-family: Druk Cyr;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  position: absolute;
+}
+
+.trenirovka1 {
+  width: 427.99993896484375px;
+  height: 320px;
+  top: 3100px;
+  left: 58px;
+  opacity: 1;
+  border-radius: 20px;
+  position: absolute;
+}
+
+.pink-arrow {
+  width: 42px;
+  height: 42px;
+  top: 3360px;
+  left: 420px;
+  opacity: 1;
+  border-radius: 50px;
+  gap: 10px;
+  padding-top: 12px;
+  padding-right: 20px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  position: absolute;
+}
+
+.tren-power {
+  width: 550px;
+  height: 30px;
+  opacity: 1;
+  font-family: Druk Cyr;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 30px;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 3450px;
+  left: 50px;
+}
+
+.power-green {
+  width: 75px;
+  height: 41px;
+  opacity: 1;
+  border-radius: 50px;
+  gap: 10px;
+  padding-top: 12px;
+  padding-right: 20px;
+  padding-bottom: 16px;
+  padding-left: 15px;
+  position: absolute;
+  top: 3500px;
+  left: 50px;
+  background-color: #d8ef69;
+}
+
+.orange {
+  width: 141px;
+  height: 41px;
+  opacity: 1;
+  border-radius: 50px;
+  gap: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-inline: 5px;
+  position: absolute;
+  top: 3500px;
+  left: 130px;
+  background-color: #f0c36b;
+}
+
+.muscle {
+  width: 166px;
+  height: 41px;
+  opacity: 1;
+  border-radius: 50px;
+  gap: 10px;
+  padding-top: 10px;
+  position: absolute;
+  top: 3500px;
+  left: 280px;
+  background-color: #c8e1f4;
+}
+
+.tren-funct {
+  width: 427.96014404296875px;
+  height: 320px;
+  top: 3100px;
+  opacity: 1;
+  position: absolute;
+  border-radius: 20px;
+  left: 525px;
+}
+
+.pink-arrow2 {
+  width: 42px;
+  height: 42px;
+  top: 3360px;
+  left: 890px;
+  opacity: 1;
+  border-radius: 50px;
+  gap: 10px;
+  padding-top: 12px;
+  padding-right: 20px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  position: absolute;
+}
+
+.func-tren {
+  width: 550px;
+  height: 30px;
+  opacity: 1;
+  font-family: Druk Cyr;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 25px;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 3450px;
+  left: 525px;
+}
+
+.power-orange {
+  width: 75px;
+  height: 41px;
+  opacity: 1;
+  border-radius: 50px;
+  gap: 10px;
+  padding-top: 12px;
+  padding-right: 20px;
+  padding-bottom: 16px;
+  padding-left: 15px;
+  position: absolute;
+  top: 3500px;
+  left: 525px;
+  background-color: #f0c36b;
+}
+
+.tonus {
+  width: 100px;
+  height: 41px;
+  opacity: 1;
+  border-radius: 50px;
+  gap: 10px;
+  position: absolute;
+  padding-top: 10px;
+  padding-left: 20px;
+  top: 3500px;
+  left: 610px;
+  background-color: #c8e1f4;
+}
+
+.vinosl {
+  width: 166px;
+  height: 41px;
+  opacity: 1;
+  border-radius: 50px;
+  gap: 10px;
+  padding-top: 10px;
+  position: absolute;
+  padding-left: 15px;
+  top: 3500px;
+  left: 720px;
+  background-color: #d8ef69;
+}
+
+.rast-tren {
+  width: 427.96014404296875px;
+  height: 320px;
+  top: 3100px;
+  left: 1000px;
+  opacity: 1;
+  border-radius: 20px;
+  position: absolute;
+}
+
+.rast-img {
+  width: 427.96014404296875px;
+  height: 320px;
+  top: 3100px;
+  opacity: 1;
+  position: absolute;
+  border-radius: 20px;
+  left: 975px;
+}
+
+.pink-arrow3 {
+  width: 42px;
+  height: 42px;
+  top: 3360px;
+  left: 1340px;
+  opacity: 1;
+  border-radius: 50px;
+  gap: 10px;
+  padding-top: 12px;
+  padding-right: 20px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  position: absolute;
+}
+
+.rast-tren {
+  width: 550px;
+  height: 30px;
+  opacity: 1;
+  font-family: Druk Cyr;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 25px;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 3450px;
+  left: 1000px;
+}
+
+.gibk {
+  width: 90px;
+  height: 41px;
+  opacity: 1;
+  border-radius: 50px;
+  gap: 10px;
+  padding-top: 12px;
+  padding-right: 20px;
+  padding-bottom: 16px;
+  padding-left: 15px;
+  position: absolute;
+  top: 3500px;
+  left: 1000px;
+  background-color: #c8e1f4;
+}
+
+.otsut {
+  width: 170px;
+  height: 41px;
+  opacity: 1;
+  border-radius: 50px;
+  gap: 10px;
+  position: absolute;
+  padding-top: 10px;
+  padding-left: 15px;
+  top: 3500px;
+  left: 1100px;
+  background-color: #f0c36b;
+}
+
+.relax {
+  width: 80px;
+  height: 41px;
+  opacity: 1;
+  border-radius: 50px;
+  gap: 10px;
+  padding-top: 10px;
+  position: absolute;
+  padding-left: 20px;
+  top: 3500px;
+  left: 1280px;
+  background-color: #d8ef69;
+}
